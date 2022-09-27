@@ -1,0 +1,56 @@
+.todo {
+  padding: 1rem;
+  border: 1px solid;
+  width: 40%;
+  margin: 0 auto;
+}
+.child {
+  text-align: center;
+}
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid grey;
+  background: white;
+  padding: 0.3rem;
+  width: 250px;
+  border-radius: 3px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.add input {
+  border: none;
+  outline: none;
+}
+.icon {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+/*  */
+.showitem .single {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid grey;
+  background: white;
+  padding: 0.3rem;
+  width: 250px;
+  border-radius: 3px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.showitem .single:hover {
+  background: rgb(248, 140, 140);
+}
+.btn {
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  border: none;
+}
+.btn:hover {
+  background: rgb(209, 89, 89);
+  color: white;
+  cursor: pointer;
+}
